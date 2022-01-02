@@ -1,25 +1,25 @@
 # Olga Andrievich
-===
+
 ## Contact information
-* **Tel:** +79041455110
-* **E-mail:** olgakuz2302@gmail.com
-* **Telegram:** @orla90
-* **GitHab:** orla90
-===
+**Tel:** +79041455110
+**E-mail:** olgakuz2302@gmail.com
+**Telegram:** @orla90
+**GitHab:** orla90
+
 ## Personal information
-* **Citizenship:** Russian Federation
-* **Place of residence:** Moscow
-===
+**Citizenship:** Russian Federation
+**Place of residence:** Moscow
+
 ## Summary
 >I really like the visual effect of the executable code, so my dream is to become a skilled front-end developer and implement cool web resources.
-===
+
 ## Skills
 * HTML&CSS
 * JS (entry level)
 * SQL
 * PHP + Laravel
 * Git
-===
+
 ## Code Example
 ```
 class Mamal extends Animal {
@@ -31,8 +31,8 @@ class Mamal extends Animal {
 	}
 }
 ```
-===
-## Education 
+## Education
+ 
 1. **Education Institution:** Irkutsk State Linguistic University
 Specialty: Theoretical and Applied Linguistics
 
@@ -44,6 +44,6 @@ HTML, CSS, JavaScript (Udemy, FreeCodeCamp)
 
 4. Interpreter courses: 
 English / German  (University of Applied Sciences, Germany))
-===
+
 ## Additional Information
 **Language skills:** English (fluent), German (advanced threshold)
