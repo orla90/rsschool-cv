@@ -1,1 +1,1 @@
-https://orla90.github.io/rsschool-cv/cv
+https://orla90.github.io/rsschool-cv/
