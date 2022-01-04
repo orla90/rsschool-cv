@@ -74,6 +74,21 @@ body {
     color: rgb(77, 70, 54);
 }
 
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: bottom;
+}
+
+.footer-img {
+    height: 50px;
+}
+
+.footer-item {
+    line-height: 100px;
+}
+
 .foto {
     width: 140px;
     height: 140px;
@@ -88,19 +103,4 @@ body {
 .foto:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.main-footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: bottom;
-}
-
-.footer-img {
-    height: 50px;
-}
-
-.footer-item {
-    line-height: 100px;
 }
