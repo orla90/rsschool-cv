@@ -11,24 +11,24 @@
 - **Place of residence:** Moscow
 
 ## Summary
->I really like the visual effect of the executable code, so my dream is to become a skilled front-end developer and implement cool web resources.
+>For me, programming is about finding new ways to solve problems, developing better creativity, reasoning and critical thinking.
+Besides I really like the visual effect of the executable code.
+So my goal is to become a skilled front-end developer and implement cool web resources.
 
 ## Skills
-* HTML&CSS
-* JS (entry level)
+* HTML
+* CSS
+* JS
 * SQL
 * PHP + Laravel
 * Git
 
 ## Code Example
 ```
-class Mamal extends Animal {
-	constructor (name, type, color) {
-		super(name, type, color)
-	}
-	sound() {
-		console.log(`Moo, i'm ${ this.name } and ${ this.type } and ${ this.color }`)
-	}
+function getParticipants(handshakes) {
+    let d = 1 + 8 * handshakes;
+    let peopleCount = (1 + Math.sqrt(d)) / 2;
+    return Math.ceil(peopleCount);
 }
 ```
 ## Education
