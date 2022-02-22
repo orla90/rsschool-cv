@@ -1,73 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
+
 <body>
-<h1>Olga Andrievich</h1>
-<hr>
-<img src="foto.jpg" alt="personal foto" class="foto">
-<h2>Contact information</h2>
-<ul>
-    <li>Tel: +79041455110</li>
-    <li>E-mail: olgakuz2302@gmail.com</li>
-    <li>Telegram: @orla90</li>
-    <li>GitHab: orla90</li>
-</ul>
-<hr>
-<h2>Personal information</h2>
-<ul>
-    <li>Citizenship: Russian Federation</li>
-    <li>Place of residence: Moscow</li>
-</ul>
-<hr>
-<h2>Summary</h2>
-<blockquote>I really like the visual effect of the executable code, so my dream is to become a skilled front-end developer and implement cool web resources.</blockquote>
-<hr>
-<h2>Skills</h2>
-<ul>
-    <li>HTML&CSS</li>
-    <li>JS (entry level)</li>
-    <li>SQL</li>
-    <li>PHP + Laravel</li>
-    <li>Git</li>
-</ul>
-<hr>
-<h2>Code Example</h2>
-<pre>
-    <code>
-    class Mamal extends Animal {
-        constructor (name, type, color) {
-            super(name, type, color)
-        }
-        sound() {
-            console.log(`Moo, i'm ${ this.name } and ${ this.type } and ${ this.color }`)
-        }
-    }
-    </code>
-</pre>
-<hr>
-<h2>Education</h2>
-<ol>
-    <li>Education Institution: Irkutsk State Linguistic University
-        <br>Specialty: Theoretical and Applied Linguistics
-    </li>
-    <li>Education Institution: Siberian State University of Telecommunications and Informatics
-        <br>Specialty: Information Science and Engineering
-    </li>
-    <li>IT-courses:
-        <br>HTML, CSS, JavaScript (Udemy, FreeCodeCamp)
-    </li>
-    <li>Interpreter courses:
-        <br>English / German  (University of Applied Sciences, Germany))
-    </li>
-</ol>
-<hr>
-<h2>Additional Information</h2>
-Language skills: English (fluent), German (advanced threshold)
+    <header class="main-header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-left intro-section" id="profile">
+                <div class="intro-foto">
+                    <img src="assets/img/foto.jpg" alt="personal foto" class="foto">
+                </div>
+                <h1 class="intro-section-title">Olga Andrievich</h1>
+                <hr class="intro-line">
+            </section>
+
+            <section class="section section-right" id="about">
+                <h2 class="section-title">About me</h2>
+                <blockquote>
+                    <p>For me, programming is about finding new ways to solve problems,<br /> developing better
+                        creativity, reasoning and critical thinking.<br />
+                        Besides I really like the visual effect of the executable code.<br />
+                        So my goal is to become a skilled front-end developer and implement<br /> cool web resources.
+                    </p>
+                </blockquote>
+            </section>
+
+            <section class="section section-left" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><span class="ico ico-tel"></span>+79041455110</li>
+                    <li><span class="ico ico-mail"></span>olgakuz2302@gmail.com</li>
+                    <li><span class="ico ico-telegram"></span>@orla90</li>
+                    <li><span class="ico ico-discord"></span>Orla90</li>
+                    <li><a class="link black-colored" href=" https://github.com/orla90 " target="_blank"><span
+                                class="ico ico-git"></span>orla90</a>
+                    </li>
+                    <li><span class="ico ico-location"></span>Russian Federation, Moscow</li>
+                </ul>
+            </section>
+
+            <section class="section section-right" id="education">
+                <h2 class="section-title">Education</h2>
+                <ol>
+                    <li><span class="ico ico-education"></span>Irkutsk State Linguistic University
+                        <br>Specialty: Theoretical and Applied Linguistics
+                    </li>
+                    <li><span class="ico ico-education"></span>Siberian State University of Telecommunications and
+                        Informatics
+                        <br>Specialty: Information Science and Engineering
+                    </li>
+                    <li><span class="ico ico-education"></span>IT-courses: HTML, CSS, JavaScript (Udemy, FreeCodeCamp)
+                    </li>
+                    <li><span class="ico ico-education"></span>Language courses: English / German (University of Applied
+                        Sciences, Germany))
+                    </li>
+                </ol>
+            </section>
+
+            <section class="section section-left" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li><span class="ico ico-html"></span>HTML</li>
+                    <li><span class="ico ico-css"></span>CSS</li>
+                    <li><span class="ico ico-js"></span>JS</li>
+                    <li><span class="ico ico-sql"></span>SQL</li>
+                    <li><span class="ico ico-php"></span>PHP + Laravel</li>
+                    <li><span class="ico ico-git"></span>Git</li>
+                </ul>
+            </section>
+
+            <section class="section section-right" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre>
+                    <code>
+function getParticipants(handshakes) {
+    let d = 1 + 8 * handshakes;
+    let peopleCount = (1 + Math.sqrt(d)) / 2;
+    return Math.ceil(peopleCount);
+}
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section section-left" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages-list">
+                    <li class="language-item"><span class="ico ico-en"></span>English (fluent)</li>
+                    <li class="language-item"><span class="ico ico-de"></span>Deutsch (advanced threshold)</li>
+                </ul>
+            </section>
+
+            <section class="section section-right" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="projects-list">
+                    <li class="project-item"><a class="link black-colored"
+                            href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/portfolio/"
+                            target="_blank"><span class="ico ico-project"></span>Portfolio
+                            Project</a></li>
+                    <li class="project-item"><a class="link black-colored"
+                            href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/eco-sounds/"
+                            target="_blank"><span class="ico ico-project"></span>Birds
+                            Songs</a></li>
+                    <li class="project-item"><a class="link black-colored"
+                            href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/random-jokes/"
+                            target="_blank"><span class="ico ico-project"></span>Random
+                            Quotes</a></li>
+                    <li class="project-item"><a class="link black-colored"
+                            href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/memory-game/"
+                            target="_blank"><span class="ico ico-project"></span>Memory
+                            Game</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a class="footer-item git-logo" href="https://github.com/orla90">
+                <span class="footer-image githab-image"></span>
+            </a>
+            <span class="footer-item year"><b>2022</b></span>
+            <a class="footer-item rss-logo" href="https://rs.school/js/">
+                <span class="footer-image rss-image"></span>
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
