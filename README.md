@@ -1,2 +1,1 @@
-# rsschool-cv
-markdown cv
+https://orla90.github.io/rsschool-cv/
