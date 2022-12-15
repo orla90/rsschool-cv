@@ -20,14 +20,13 @@ const i18Obj = {
     university_2:
       'Siberian State University of Telecommunications and Informatics',
     speciality_2: 'Speciality: Information Science and Engineering',
-    coursesTech:
-      'IT-courses: JavaScript/Front-end (RS School), React Course (RS School)',
-    coursesLang:
-      'Language courses: English / German (University of Applied Sciences, Germany))',
+    coursesTechJS: 'Course: JavaScript/Front-end (RS School)',
+    coursesTechReact: 'Course: React (RS School)',
     сode: 'Code Example',
     english: 'English (fluent)',
+    russian: 'Russian (native)',
     german: 'German (advanced threshold)',
-    portfolio: 'Portfolio Project',
+    portfolio: `Photographer's Portfolio`,
     birds: 'Birds Songs',
     quotes: 'Random Quotes',
     memory: 'Memory Game',
@@ -52,15 +51,13 @@ const i18Obj = {
     university_2:
       'Сибирский государственный университет телекоммуникаций и информатики',
     speciality_2: 'Специальность: Информатика и вычислительная техника',
-    coursesTech:
-      'IT-курсы: JavaScript/Front-end (RS School), React (RS School)',
-    coursesLang:
-      'Языковые курсы: Английский / Немецкий (Высшая школа Циттау/Герлиц, Германия)',
-    сode: 'Пример кода',
+    coursesTechJS: 'Курс JavaScript/Front-end (RS School)',
+    coursesTechReact: 'Курс по React (RS School)',
+    russian: 'Русский (родной)',
     english: 'Английский (продвинутый)',
     german: 'Немецкий (пороговый продвинутый уровень)',
-    portfolio: 'Портфолио проект',
-    birds: 'Песни птиц',
+    portfolio: 'Портфолио фотографа',
+    birds: 'Пение птиц',
     quotes: 'Случайные цитаты',
     memory: 'Игра на запоминание',
     rsLang: 'RS Lang (приложение для изучения языка)',

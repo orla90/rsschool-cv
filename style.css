@@ -251,14 +251,6 @@ hr {
   background-image: url(assets/svg/sql.svg);
 }
 
-.ico-en {
-  background-image: url(assets/svg/en.svg);
-}
-
-.ico-de {
-  background-image: url(assets/svg/de.svg);
-}
-
 .ico-project {
   background-image: url(assets/svg/project.svg);
 }
@@ -281,6 +273,18 @@ hr {
 
 .ico-redux {
   background-image: url(assets/svg/redux.svg);
+}
+
+.ico-linkedin {
+  background-image: url(assets/svg/linkedin.svg);
+}
+
+.ico-ru,
+.ico-de,
+.ico-en {
+  cursor: default;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .footer {
