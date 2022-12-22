@@ -195,6 +195,11 @@ hr {
   cursor: pointer;
 }
 
+.text-link {
+  color: #5e5647;
+  font-weight: 550;
+}
+
 .ico {
   width: 20px;
   height: 20px;
