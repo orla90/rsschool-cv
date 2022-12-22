@@ -76,6 +76,7 @@ li {
 .language-switcher {
   display: inline-block;
   margin-left: auto;
+  margin-right: 10px;
   display: flex;
   flex-wrap: nowrap;
   line-height: 50px;
@@ -193,6 +194,11 @@ hr {
 .foto:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.text-link {
+  color: #5e5647;
+  font-weight: 550;
 }
 
 .ico {

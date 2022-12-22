@@ -20,6 +20,8 @@ const i18Obj = {
     university_2:
       'Siberian State University of Telecommunications and Informatics',
     speciality_2: 'Speciality: Information Science and Engineering',
+    coursesPreTechJS:
+      'Course: JavaScript/Front-end PRE-SCHOOL Course (RS School)',
     coursesTechJS: 'Course: JavaScript/Front-end (RS School)',
     coursesTechReact: 'Course: React (RS School)',
     сode: 'Code Example',
@@ -51,6 +53,7 @@ const i18Obj = {
     university_2:
       'Сибирский государственный университет телекоммуникаций и информатики',
     speciality_2: 'Специальность: Информатика и вычислительная техника',
+    coursesPreTechJS: 'Курс JavaScript/Front-end PRE-SCHOOL (RS School)',
     coursesTechJS: 'Курс JavaScript/Front-end (RS School)',
     coursesTechReact: 'Курс по React (RS School)',
     russian: 'Русский (родной)',
