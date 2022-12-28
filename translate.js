@@ -35,6 +35,8 @@ const i18Obj = {
     rsLang: 'RS Lang (language learning app)',
     rickAndMorty: 'Rick and Morty',
     projectManagementApp: 'Project Management App',
+    shelter: 'Shelter',
+    onlineStore: 'Online store',
   },
   ru: {
     contacts: 'Контакты',
@@ -63,9 +65,11 @@ const i18Obj = {
     birds: 'Пение птиц',
     quotes: 'Случайные цитаты',
     memory: 'Игра на запоминание',
-    rsLang: 'RS Lang (приложение для изучения языка)',
+    rsLang: 'RS Lang',
     rickAndMorty: 'Рик и Морти',
-    projectManagementApp: 'Система управления проектами',
+    projectManagementApp: 'Управление проектами',
+    shelter: 'Приют',
+    onlineStore: 'Интернет магазин',
   },
 };
 export default i18Obj;
