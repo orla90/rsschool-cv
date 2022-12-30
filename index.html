@@ -18,6 +18,7 @@
   <body>
     <header class="main-header">
       <div class="container header-container">
+        <span class="hamburger-icon"></span>
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -56,6 +57,7 @@
           /
           <button class="language-switcher__item language-switcher__item_en active">en</button>
         </div>
+        <div class="overlay"></div>
       </div>
     </header>
 
@@ -223,8 +225,10 @@ const memoize = (func) => {
           <h2 class="section__title">
             <span data-i18="projects">Projects</span>
           </h2>
-            <ul class="projects">
-            </ul>
+            <div class="projects">
+              <ul class="projects__list"></ul>
+              <div class="projects__images"></div>
+            </div>
           </div>
         </section>
       </div>

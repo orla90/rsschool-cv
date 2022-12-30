@@ -31,12 +31,6 @@ const PROJECTS = [
     img: './assets/img/birds.png',
   },
   {
-    name: 'quotes',
-    href:
-      'https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/random-jokes/',
-    img: './assets/img/quotes.png',
-  },
-  {
     name: 'memory',
     href:
       'https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/memory-game/',
