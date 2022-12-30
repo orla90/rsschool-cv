@@ -18,59 +18,61 @@
   <body>
     <header class="main-header">
       <div class="container header-container">
+        <span class="hamburger-icon"></span>
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#contacts" class="nav-link" data-i18="contacts"
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link" data-i18="contacts"
                 >Contacts</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link" data-i18="about">About me</a>
+            <li class="nav__item">
+              <a href="#about" class="nav__link" data-i18="about">About me</a>
             </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link" data-i18="skills">Skills</a>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link" data-i18="skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a href="#code" class="nav-link" data-i18="code">Code</a>
+            <li class="nav__item">
+              <a href="#code" class="nav__link" data-i18="code">Code</a>
             </li>
-            <li class="nav-item">
-              <a href="#education" class="nav-link" data-i18="education"
+            <li class="nav__item">
+              <a href="#education" class="nav__link" data-i18="education"
                 >Education</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link" data-i18="projects"
+            <li class="nav__item">
+              <a href="#projects" class="nav__link" data-i18="projects"
                 >Projects</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#languages" class="nav-link" data-i18="languages"
+            <li class="nav__item">
+              <a href="#languages" class="nav__link" data-i18="languages"
                 >Languages</a
               >
             </li>
           </ul>
         </nav>
         <div class="language-switcher">
-          <button class="switcher-item switcher-item__ru">ru</button>
+          <button class="language-switcher__item language-switcher__item_ru">ru</button>
           /
-          <button class="switcher-item switcher-item__en active">en</button>
+          <button class="language-switcher__item language-switcher__item_en active">en</button>
         </div>
+        <div class="overlay"></div>
       </div>
     </header>
 
     <main class="main">
       <div class="container main-container">
-        <section class="section section-left intro-section" id="profile">
-          <div class="intro-foto">
+        <section class="section section_left section_intro" id="profile">
+          <div class="section_intro__foto">
             <img src="assets/img/foto.jpg" alt="personal foto" class="foto" />
           </div>
-          <h1 class="intro-section-title" data-i18="name">Olga Andrievich</h1>
-          <hr class="intro-line" />
+          <h1 class="section_intro__title" data-i18="name">Olga Andrievich</h1>
+          <hr class="section_intro__line" />
         </section>
 
-        <section class="section section-right" id="about">
-          <h2 class="section-title" data-i18="about">About me</h2>
+        <section class="section section_right" id="about">
+          <h2 class="section__title" data-i18="about">About me</h2>
           <blockquote>
             <p data-i18="aboutDescription">
               For me, programming is about finding new ways to solve problems,
@@ -82,42 +84,42 @@
           </blockquote>
         </section>
 
-        <section class="section section-left" id="contacts">
-          <h2 class="section-title" data-i18="contacts">Contacts</h2>
+        <section class="section section_left" id="contacts">
+          <h2 class="section__title" data-i18="contacts">Contacts</h2>
           <ul>
             <li>
-              <span class="ico ico-location"></span>
+              <span class="ico ico_location"></span>
               <span data-i18="residence">Federation, Moscow</span>
             </li>
-            <li><span class="ico ico-tel"></span>+79041455110</li>
-            <li><span class="ico ico-mail"></span>olgakuz2302@gmail.com</li>
-            <li><span class="ico ico-telegram"></span>@orla90</li>
-            <li><span class="ico ico-discord"></span>Orla90</li>
+            <li><span class="ico ico_tel"></span>+79041455110</li>
+            <li><span class="ico ico_mail"></span>olgakuz2302@gmail.com</li>
+            <li><span class="ico ico_telegram"></span>@orla90</li>
+            <li><span class="ico ico_discord"></span>Orla90</li>
             <li>
               <a
-                class="link black-colored text-link"
+                class="link link_brown link_text"
                 href="https://github.com/orla90"
                 target="_blank"
-                ><span class="ico ico-git"></span>orla90</a
+                ><span class="ico ico_git"></span>orla90</a
               >
             </li>
             <li>
               <a
-                class="link black-colored text-link"
+                class="link link_brown link_text"
                 href="https://www.linkedin.com/in/olga-andrievich-a41844251/"
                 target="_blank"
-                ><span class="ico ico-linkedin"></span
+                ><span class="ico ico_linkedin"></span
                 ><span data-i18="name">Olga Andrievich</span></a
               >
             </li>
           </ul>
         </section>
 
-        <section class="section section-right" id="education">
-          <h2 class="section-title" data-i18="education">Education</h2>
+        <section class="section section_right" id="education">
+          <h2 class="section__title" data-i18="education">Education</h2>
           <ol>
             <li>
-              <span class="ico ico-education"></span
+              <span class="ico ico_education"></span
               ><span data-i18="university_2"
                 >Siberian State University of Telecommunications and
                 Informatics</span
@@ -127,7 +129,7 @@
               </p>
             </li>
             <li>
-              <span class="ico ico-education"></span
+              <span class="ico ico_education"></span
               ><span data-i18="university_1"
                 >Irkutsk State Linguistic University</span
               >
@@ -137,33 +139,33 @@
             </li>
             <li>
               <a
-                class="link black-colored"
+                class="link link_brown"
                 href="https://app.rs.school/certificate/s5925hs6"
                 target="_blank"
-                ><span class="ico ico-education"></span
-                ><span data-i18="coursesPreTechJS" class="text-link">
+                ><span class="ico ico_education"></span
+                ><span data-i18="coursesPreTechJS" class="link_text">
                   JavaScript/Front-end PRE-SCHOOL Course (RS School)</span
                 ></a
               >
             </li>
             <li>
               <a
-                class="link black-colored"
+                class="link link_brown"
                 href="https://app.rs.school/certificate/yc65kjn0"
                 target="_blank"
-                ><span class="ico ico-education"></span
-                ><span data-i18="coursesTechJS" class="text-link">
+                ><span class="ico ico_education"></span
+                ><span data-i18="coursesTechJS" class="link_text">
                   JavaScript/Front-end Course (RS School)</span
                 ></a
               >
             </li>
             <li>
               <a
-                class="link black-colored"
+                class="link link_brown"
                 href="https://app.rs.school/certificate/dsvopz66"
                 target="_blank"
-                ><span class="ico ico-education"></span
-                ><span data-i18="coursesTechReact" class="text-link">
+                ><span class="ico ico_education"></span
+                ><span data-i18="coursesTechReact" class="link_text">
                   React Course (RS School)</span
                 ></a
               >
@@ -171,141 +173,74 @@
           </ol>
         </section>
 
-        <section class="section section-left" id="languages">
-          <h2 class="section-title" data-i18="languages">Languages</h2>
-          <ul class="languages-list">
-            <li class="language-item">
-              <span class="ico ico-ru">Ru</span
+        <section class="section section_left" id="languages">
+          <h2 class="section__title" data-i18="languages">Languages</h2>
+          <ul class="languages">
+            <li class="languages__item">
+              <span class="ico ico_ru">Ru</span
               ><span data-i18="russian">Russian (native)</span>
             </li>
-            <li class="language-item">
-              <span class="ico ico-en">En</span
+            <li class="languages__item">
+              <span class="ico ico_en">En</span
               ><span data-i18="english">English (fluent)</span>
             </li>
-            <li class="language-item">
-              <span class="ico ico-de">De</span
+            <li class="languages__item">
+              <span class="ico ico_de">De</span
               ><span data-i18="german">German (advanced threshold)</span>
             </li>
           </ul>
         </section>
 
-        <section class="section section-right" id="code">
-          <h2 class="section-title" data-i18="codeExample">Code Example</h2>
+        <section class="section section_right" id="code">
+          <h2 class="section__title" data-i18="codeExample">Code Example</h2>
           <code>
             <pre>
-const getParticipants = (handshakes) => { 
-  const d = 1 + 8 * handshakes
-  const peopleCount = (1 + Math.sqrt(d)) / 2; 
-  return Math.ceil(peopleCount); 
-}
+const memoize = (func) => {
+  const memo = {
+    cash: func(),
+  };
+  return () => memo.cash;
+};
             </pre>
           </code>
         </section>
 
-        <section class="section section-left" id="skills">
-          <h2 class="section-title" data-i18="skills">Skills</h2>
+        <section class="section section_left" id="skills">
+          <h2 class="section__title" data-i18="skills">Skills</h2>
           <ul>
-            <li><span class="ico ico-html"></span>HTML</li>
-            <li><span class="ico ico-css"></span>CSS / SCSS / SASS</li>
-            <li><span class="ico ico-js"></span>JavaScript</li>
-            <li><span class="ico ico-ts"></span>TypeScript</li>
-            <li><span class="ico ico-react"></span>React</li>
-            <li><span class="ico ico-redux"></span>Redux</li>
-            <li><span class="ico ico-sql"></span>SQL</li>
-            <li><span class="ico ico-php"></span>PHP</li>
-            <li><span class="ico ico-git"></span>Git</li>
-            <li><span class="ico ico-webpack"></span>WebPack</li>
+            <li><span class="ico ico_html"></span>HTML</li>
+            <li><span class="ico ico_css"></span>CSS / SCSS / SASS</li>
+            <li><span class="ico ico_js"></span>JavaScript</li>
+            <li><span class="ico ico_ts"></span>TypeScript</li>
+            <li><span class="ico ico_react"></span>React</li>
+            <li><span class="ico ico_redux"></span>Redux</li>
+            <li><span class="ico ico_sql"></span>SQL</li>
+            <li><span class="ico ico_php"></span>PHP</li>
+            <li><span class="ico ico_git"></span>Git</li>
+            <li><span class="ico ico_webpack"></span>WebPack</li>
           </ul>
         </section>
 
-        <section class="section section-right" id="projects">
-          <h2 class="section-title">
+        <section class="section section_right" id="projects">
+          <h2 class="section__title">
             <span data-i18="projects">Projects</span>
           </h2>
-          <ul class="projects-list">
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://orla90.github.io/Project-Management-App/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="projectManagementApp" class="text-link"
-                  >Project Management App</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://unique-sfogliatella-bd7343.netlify.app/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="rickAndMorty" class="text-link"
-                  >Rick and Morty</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://orla90.github.io/portfolio-project/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="portfolio" class="text-link"
-                  >Portfolio Project</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/eco-sounds/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="birds" class="text-link">Birds Songs</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/random-jokes/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="quotes" class="text-link"
-                  >Random Quotes</span
-                ></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://rolling-scopes-school.github.io/orla90-JSFEPRESCHOOL/memory-game/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="memory" class="text-link">Memory Game</span></a
-              >
-            </li>
-            <li class="project-item">
-              <a
-                class="link black-colored"
-                href="https://rslang-outlaw0.netlify.app/"
-                target="_blank"
-                ><span class="ico ico-project"></span
-                ><span data-i18="rsLang" class="text-link">RS Lang</span></a
-              >
-            </li>
-          </ul>
+            <div class="projects">
+              <ul class="projects__list"></ul>
+              <div class="projects__images"></div>
+            </div>
+          </div>
         </section>
       </div>
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a class="footer-item git-logo" href="https://github.com/orla90">
-          <span class="footer-image githab-image"></span>
+        <a class="footer__item git-logo" href="https://github.com/orla90">
+          <span class="footer__image githab-image"></span>
         </a>
-        <span class="footer-item year"><b>2022</b></span>
-        <a class="footer-item rss-logo" href="https://rs.school/js/">
-          <span class="footer-image rss-image"></span>
+        <span class="footer__item"><b>2022</b></span>
+        <a class="footer__item rss-logo" href="https://rs.school/js/">
+          <span class="footer__image rss-image"></span>
         </a>
       </div>
     </footer>
