@@ -66,8 +66,8 @@ const createLink = (project, className) => {
   return link;
 };
 
-const ruSwitcher = document.getElementsByClassName(
-  'language-switcher__item_ru'
+const deSwitcher = document.getElementsByClassName(
+  'language-switcher__item_de'
 )[0];
 const enSwitcher = document.getElementsByClassName(
   'language-switcher__item_en'
@@ -76,17 +76,17 @@ let activeSwitcher = enSwitcher;
 let lang = activeSwitcher.innerText.toLowerCase();
 
 const toggleActiveSwitcher = () => {
-  ruSwitcher.classList.toggle('active');
+  deSwitcher.classList.toggle('active');
   enSwitcher.classList.toggle('active');
-  activeSwitcher = ruSwitcher.classList.contains('active')
-    ? ruSwitcher
+  activeSwitcher = deSwitcher.classList.contains('active')
+    ? deSwitcher
     : enSwitcher;
   lang = activeSwitcher.innerText.toLowerCase();
   getTranslate(lang);
   console.log(lang);
 };
 
-ruSwitcher.addEventListener('click', toggleActiveSwitcher);
+deSwitcher.addEventListener('click', toggleActiveSwitcher);
 enSwitcher.addEventListener('click', toggleActiveSwitcher);
 
 const getTranslate = (lang) => {

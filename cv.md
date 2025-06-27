@@ -7,8 +7,8 @@
 - **GitHab:** orla90
 
 ## Personal information
-- **Citizenship:** Russian Federation
-- **Place of residence:** Moscow
+- **Citizenship:** Germany
+- **Place of residence:** Kaiserslautern
 
 ## Summary
 >For me, programming is about finding new ways to solve problems, developing better creativity, reasoning and critical thinking.

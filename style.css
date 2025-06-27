@@ -353,12 +353,12 @@ hr {
   background-image: url(assets/svg/webpack.svg);
 }
 
-.ico_react {
-  background-image: url(assets/svg/react.svg);
+.ico_angular {
+  background-image: url(assets/svg/angular.svg);
 }
 
-.ico_redux {
-  background-image: url(assets/svg/redux.svg);
+.ico_react {
+  background-image: url(assets/svg/react.svg);
 }
 
 .ico_linkedin {
